@@ -2,7 +2,7 @@
 
 def recebeModo():
     while True:
-        option = input("Deseja criptografar ou descriptografar? ")
+        option = input("Deseja criptografar ou descriptografar?[c/d] ")
         option = option.lower()
         if option == 'c' or option == 'criptografar' or option == 'descriptografar' or option == 'd':
             return option
